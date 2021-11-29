@@ -1,9 +1,10 @@
 // responsive
 
 /* mobile */
-@media only screen and (max-width: 480px) {
- 
-   h1.titulo {
+
+@media only screen and (min-width:320px) and (max-width: 480px) {
+
+    h1.titulo {
         font-size: 2.6rem;
     }
 
@@ -11,50 +12,52 @@
         0% {
             opacity: 0;
         }
-    
+
         100% {
             opacity: 1;
         }
     }
-    
+
     .header__logo {
-       margin-left: 120%;
+        margin-left: 82%;
     }
 
     .caja__parrafo {
         font-size: 16px;
     }
 
-.contenedorCuidados {
-    margin-left: 20%;
-}
-    main { 
+    .contenedorCuidados {
+        margin-left: 20%;
+    }
+
+    main {
         padding-top: 10px;
     }
 
     .iconos {
-       margin-right: 30px;
+        margin-right: 30px;
     }
+
     .contenedorProductos {
-       padding-left: 12%;
+        padding-left: 6%;
     }
-  
+
     .footer {
         background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
         background-color: #2a2e2a;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
-    
+
         &__img {
             padding: 1px;
         }
-    
+
         &__h5 {
             color: white;
             font-size: 0.5rem;
         }
-    
+
         &__p {
             color: white;
         }
@@ -64,7 +67,7 @@
         width: 100% !important;
     }
 
-
+}
 
 
 /* Tablet */
@@ -76,23 +79,54 @@
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
-    
+
         &__img {
             padding: 1px;
         }
-    
-        &__h5 {
-            color: white;
-            font-size: 0.5rem;
-        }
-    
+
         &__p {
             color: white;
         }
     }
 
+
+
+.header__logo {
+    margin-left: 150%;
 }
 
+.contenedorProductos {
+    padding-left: 20%;
+}
+
+/*titulos*/
+.titulo-productos {
+    padding-top: 20%;
+}
+
+.tituloCarrito {
+    padding-top: 20%;
+}
+.tituloContacto {
+    padding-top: 20%;
+}
+.tituloCuidados {
+    padding-top: 20%;
+    }
+.titulo {
+    padding-top: 20%;
+} 
+.deco {
+    overflow: hidden;
+}
+.contenedorCuidados {
+   flex-wrap: wrap;
+}
+
+
+
+
+}
 
 
 
@@ -105,19 +139,18 @@
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
-    
+
         &__img {
             padding: 1px;
         }
-    
+
         &__h5 {
             color: white;
             font-size: 0.5rem;
         }
-    
+
         &__p {
             color: white;
         }
     }
-}
 }

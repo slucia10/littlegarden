@@ -118,7 +118,7 @@ h4 {
   justify-content: end; }
 
 /* mobile */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   h1.titulo {
     font-size: 2.6rem; }
   @keyframes aparecer {
@@ -127,7 +127,7 @@ h4 {
     100% {
       opacity: 1; } }
   .header__logo {
-    margin-left: 120%; }
+    margin-left: 82%; }
   .caja__parrafo {
     font-size: 16px; }
   .contenedorCuidados {
@@ -137,7 +137,7 @@ h4 {
   .iconos {
     margin-right: 30px; }
   .contenedorProductos {
-    padding-left: 12%; }
+    padding-left: 6%; }
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
@@ -152,10 +152,10 @@ h4 {
     .footer__p {
       color: white; }
   .form {
-    width: 100% !important; }
-  /* Tablet */ }
+    width: 100% !important; } }
 
-@media only screen and (max-width: 480px) and (min-width: 481px) and (max-width: 768px) {
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
@@ -164,16 +164,30 @@ h4 {
     padding-bottom: 10px; }
     .footer__img {
       padding: 1px; }
-    .footer__h5 {
-      color: white;
-      font-size: 0.5rem; }
     .footer__p {
-      color: white; } }
+      color: white; }
+  .header__logo {
+    margin-left: 150%; }
+  .contenedorProductos {
+    padding-left: 20%; }
+  /*titulos*/
+  .titulo-productos {
+    padding-top: 20%; }
+  .tituloCarrito {
+    padding-top: 20%; }
+  .tituloContacto {
+    padding-top: 20%; }
+  .tituloCuidados {
+    padding-top: 20%; }
+  .titulo {
+    padding-top: 20%; }
+  .deco {
+    overflow: hidden; }
+  .contenedorCuidados {
+    flex-wrap: wrap; } }
 
-@media only screen and (max-width: 480px) {
-  /* Notebook */ }
-
-@media only screen and (max-width: 480px) and (min-width: 769px) and (max-width: 1024px) {
+/* Notebook */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
