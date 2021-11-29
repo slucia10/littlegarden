@@ -181,10 +181,15 @@ h4 {
     padding-top: 20%; }
   .titulo {
     padding-top: 20%; }
+  /*fin titulos*/
   .deco {
     overflow: hidden; }
   .contenedorCuidados {
-    flex-flow: nowrap; } }
+    flex-flow: nowrap; }
+  .formulario__imgFormulario {
+    float: none; }
+  .form {
+    width: 100% !important; } }
 
 /* Notebook */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
