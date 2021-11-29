@@ -187,9 +187,11 @@ h4 {
   .contenedorCuidados {
     flex-flow: nowrap; }
   .formulario__imgFormulario {
-    float: none; }
+    display: none; }
   .form {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .iconos {
+    margin-right: 40px; } }
 
 /* Notebook */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
