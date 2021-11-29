@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inicio SEO -->
+    <!-- keywords -->
+    <meta name="keywords" content="compra,pago,efectivo,tarjeta de credito,tarjeta de debito,retiro,carrito">
+    <!-- TITULO-->
+    <title>Seccion Carrito de Little Garden</title>
+    <!-- descripcion -->
+    <meta name="´description" content="Este es mi sitio web, encontraras, plantas, macetas y decoración">
+    <!-- Fin SEO -->
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Mono:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <!-- SAS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <link rel="stylesheet" href="./css/destino.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- inicio navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light header">
+            <a href="index.html">
+                <img class="header__logo" src="./imagenes/logo1.jpg" height="120" width="120" alt="logo">
+            </a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="cuidados.html">Cuidados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="cuenta.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="carrito.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- fin navbar -->
+
+
+
+
+    <!-- inicio main -->
+    <main>
+        <h1 class="tituloCarrito"> Tus Compras</h1>
+        <!-- inicio fieldset -->
+        <div class="container carrito">
+        <fieldset class="texto">
+            <legend> <strong>Medios de Pago</strong> </legend>
+            <div>Efectivo</div>
+            <input type="radio" name="genero" value="efectivo">
+            <div>Tarjetas de Credito</div>
+            <input type="radio" name="genero" value="Tarjeta de credito">
+            <div>Tarjeta de debito</div>
+            <input type="radio" name="genero" value="Tarjeta de debito"> <br>
+
+            <legend>Tarjetas</legend>
+            <select name="tarjetas">
+                <option value="VISA">VISA</option>
+                <option value="MASTERCARD">MASTERCARD</option>
+                <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
+                <option value="BANCO PROVINCIA">BANCO PROVINCIA</option>
+                <option value="BANCO NACION">BANCO NACION</option>
+                <option value="NARANJA">NARANJA</option>
+            </select>
+        </fieldset>
+        <fieldset class="texto">
+            <legend> <strong>Retiro Por</strong> </legend>
+            <div>OCA Estándar - Retiro por sucursal de OCA</div>
+            <input type="radio" name="genero" value="correo Oca">
+            <div>SHOWROOM Little Garden Tandil </div>
+            <input type="radio" name="genero" value="showroom">
+        </fieldset>
+        <!-- fin fieldset -->
+        <div class="texto">
+            <a class="btn btn-outline-dark" href="carrito.html" role="button">Finalizar Compra</a>
+        </div>
+    </div>
+
+        <h4> Sumate a la comunidad #verdevida</h4>
+
+    </main>
+    <!-- fin main -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container-xl d-flex justify-content-end align-items-center">
+            <a class="footer__icono" href="carrito.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                    class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                </svg>
+            </a>
+        </div>
+        <img class="img-fluid footer__img" src="https://img.icons8.com/fluency/48/000000/facebook.png" />
+        <img class="img-fluid footer__img" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" />
+        <img class="img-fluid footer__img" src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" />
+        <p class="footer__p">Copyright © Little Garden</p>
+    </footer>
+    <!-- scrpt bs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

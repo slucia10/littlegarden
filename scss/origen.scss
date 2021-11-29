@@ -1,0 +1,165 @@
+// IMPORTACIONES+
+@import "_titulos";
+@import "_header";
+@import "_responsive";
+@import "_productos";
+
+
+//VARIABLES
+$verde:#748c74;
+$rosa: rgb(231, 118, 118);
+$ancho:250px;
+$alto:250px;
+
+//MIXIN 
+@mixin medidas ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+
+main {
+    margin-top: 140px;
+}
+
+/*CARRITO*/
+.carrito {
+    background: url("../imagenes/imagen-6.jpg") no-repeat 1px 1px;
+    background-position:center;
+    background-size:cover;
+    overflow: hidden;
+}
+.texto {
+    color: black;
+}
+
+/*formulario CUENTA*/
+.formulario {
+    display: -webkit-box;
+
+    &__imgFormulario {
+        float: left;
+        width: 440px;
+    }
+}
+
+/*formulario CONTACTO*/
+.mainContacto {
+    width: 100%;
+    background-size: cover;
+}
+
+.form {
+    width: 28%;
+    margin: 0 auto; 
+    background: url("../imagenes/imagen-39.png") no-repeat 0px 0px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 30px 67px;
+    border-top: 3px solid grey;
+    box-shadow: 0px 25px 44px rgba(0, 0, 0, 0.72);
+}
+
+.contacto {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    color: $verde;
+}
+
+form p {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0.3px;
+}
+
+
+
+/* FOOTER*/
+.footer {
+    background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
+    background-color: #2a2e2a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &__img {
+        padding: 1px;
+    }
+&__icono {
+    color: white;
+}
+    &__p {
+        color: white;
+    }
+}
+
+
+
+.caja {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &__parrafo {
+        font-size: 20px;
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        padding:8px;
+    font-family: roboto condesed, monospace;
+
+		
+    }
+}
+
+
+
+/* Iconos centrales Index */
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+
+    &__img {
+        padding-left: 2rem;
+        border: 2px  violet;
+    
+    &__p {
+        font-size: 18px;
+    }
+}
+
+/* imagenes Deco */
+.contenedorImg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    &__imgIndex {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+}
+ /*SECCION CUIDADOS*/
+ .contenedorCuidados {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  &__img {
+      width: 250px;
+      height: 250px;
+  }
+}
+.card1 {
+    border: none;
+}

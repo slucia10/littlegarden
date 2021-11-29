@@ -1,0 +1,123 @@
+// responsive
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+ 
+   h1.titulo {
+        font-size: 2.6rem;
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .header__logo {
+       margin-left: 120%;
+    }
+
+    .caja__parrafo {
+        font-size: 16px;
+    }
+
+.contenedorCuidados {
+    margin-left: 20%;
+}
+    main { 
+        padding-top: 10px;
+    }
+
+    .iconos {
+       margin-right: 30px;
+    }
+    .contenedorProductos {
+       padding-left: 12%;
+    }
+  
+    .footer {
+        background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
+        background-color: #2a2e2a;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        &__img {
+            padding: 1px;
+        }
+    
+        &__h5 {
+            color: white;
+            font-size: 0.5rem;
+        }
+    
+        &__p {
+            color: white;
+        }
+    }
+
+    .form {
+        width: 100% !important;
+    }
+
+
+
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .footer {
+        background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
+        background-color: #2a2e2a;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        &__img {
+            padding: 1px;
+        }
+    
+        &__h5 {
+            color: white;
+            font-size: 0.5rem;
+        }
+    
+        &__p {
+            color: white;
+        }
+    }
+
+}
+
+
+
+
+/* Notebook */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+    .footer {
+        background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
+        background-color: #2a2e2a;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        &__img {
+            padding: 1px;
+        }
+    
+        &__h5 {
+            color: white;
+            font-size: 0.5rem;
+        }
+    
+        &__p {
+            color: white;
+        }
+    }
+}
+}

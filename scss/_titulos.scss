@@ -1,0 +1,123 @@
+//VARIABLES
+$verde:#748c74;
+$rosa: rgb(231, 118, 118);
+
+/*titulos secciones*/ 
+
+.titulo-productos {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $verde;
+    font-family: roboto condesed, monospace;
+
+}
+.tituloCarrito {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $verde;
+    font-family: roboto condesed, monospace;
+}
+.tituloCuidados {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $verde;
+    font-family: roboto condesed, monospace;
+}
+.tituloContacto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $verde;
+    font-family: roboto condesed, monospace;
+}
+.titulo {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3.5rem;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: $verde;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/*fin titulos secciones*/
+
+h1 {
+    font-family: roboto condesed;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: $verde;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-family: roboto condesed, monospace;
+    letter-spacing: 1px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: $verde;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: roboto condesed, monospace;
+    font-size: 2.1rem;
+
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    animation-name: animacion;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    color: $rosa;
+}
+
+@keyframes animacion {
+    0% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(500px);
+    }
+
+    50% {
+        transform: translateX(500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
