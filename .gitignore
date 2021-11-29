@@ -4,5 +4,5 @@
 imagenes/peperomia-randrop.jpg
 imagenes/dos-min.jpg
 
-#ignorar carpetas
-package.json/
+#ignorar archivo
+readme.md
