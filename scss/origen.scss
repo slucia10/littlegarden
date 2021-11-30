@@ -25,10 +25,11 @@ main {
 /*CARRITO*/
 .carrito {
     background: url("../imagenes/imagen-6.jpg") no-repeat 1px 1px;
-    background-position:center;
-    background-size:cover;
+    background-position: center;
+    background-size: cover;
     overflow: hidden;
 }
+
 .texto {
     color: black;
 }
@@ -51,7 +52,7 @@ main {
 
 .form {
     width: 28%;
-    margin: 0 auto; 
+    margin: 0 auto;
     background: url("../imagenes/imagen-39.png") no-repeat 0px 0px;
     background-size: cover;
     background-position: center;
@@ -89,9 +90,11 @@ form p {
     &__img {
         padding: 1px;
     }
-&__icono {
-    color: white;
-}
+
+    &__icono {
+        color: white;
+    }
+
     &__p {
         color: white;
     }
@@ -107,14 +110,34 @@ form p {
         font-size: 20px;
         margin-left: 3.5rem;
         margin-right: 3.5rem;
-        padding:8px;
-    font-family: roboto condesed, monospace;
+        padding: 8px;
+        font-family: roboto condesed, monospace;
 
-		
+
     }
 }
 
+/*WHATSAPP*/
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 20px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+   
+}
 
+.btn-wsp:hover {
+    text-decoration: none;
+    background: rgb(41, 199, 41);
+}
 
 /* Iconos centrales Index */
 .iconos {
@@ -125,41 +148,43 @@ form p {
     flex-direction: row;
     padding-top: 30px;
     padding-bottom: 30px;
-    
+
 
     &__img {
         padding-left: 2rem;
-        border: 2px  violet;
-    
-    &__p {
-        font-size: 18px;
+        border: 2px violet;
+
+        &__p {
+            font-size: 18px;
+        }
     }
+
+    /* imagenes Deco */
+    .contenedorImg {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        &__imgIndex {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
 }
 
-/* imagenes Deco */
-.contenedorImg {
-    padding-top: 10px;
-    padding-bottom: 10px;
+/*SECCION CUIDADOS*/
+.contenedorCuidados {
+    margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
 
-    &__imgIndex {
-        display: flex;
-        justify-content: center;
+    &__img {
+        width: 250px;
+        height: 250px;
     }
 }
 
-}
- /*SECCION CUIDADOS*/
- .contenedorCuidados {
-  margin-top: 20px;
-  margin-left: 20px;
-
-  &__img {
-      width: 250px;
-      height: 250px;
-  }
-}
 .card1 {
     border: none;
 }

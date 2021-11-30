@@ -301,6 +301,25 @@ form p {
     padding: 8px;
     font-family: roboto condesed, monospace; }
 
+/*WHATSAPP*/
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 20px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+
+.btn-wsp:hover {
+  text-decoration: none;
+  background: #29c729; }
+
 /* Iconos centrales Index */
 .iconos {
   display: flex;
@@ -313,7 +332,7 @@ form p {
   /* imagenes Deco */ }
   .iconos__img {
     padding-left: 2rem;
-    border: 2px  violet; }
+    border: 2px violet; }
     .iconos__img__p {
       font-size: 18px; }
   .iconos .contenedorImg {

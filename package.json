@@ -1,0 +1,17 @@
+{
+  "name": "sass1",
+  "version": "1.0.0",
+  "description": "esta es mi pagina web, sobre venta de plantas,productos para cuidados de las mismas y decoracion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "lucia suarez",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.14"
+  }
+}
