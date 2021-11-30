@@ -126,8 +126,6 @@ h4 {
       opacity: 0; }
     100% {
       opacity: 1; } }
-  .header__logo {
-    margin-left: 100% !important; }
   .caja__parrafo {
     font-size: 16px; }
   .contenedorCuidados {
