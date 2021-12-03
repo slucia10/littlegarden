@@ -226,19 +226,6 @@ h4 {
 .margen {
   margin: 30px; }
 
-main {
-  margin-top: 140px; }
-
-/*CARRITO*/
-.carrito {
-  background: url("../imagenes/imagen-6.jpg") no-repeat 1px 1px;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden; }
-
-.texto {
-  color: black; }
-
 /*formulario CUENTA*/
 .formulario {
   display: -webkit-box; }
@@ -274,6 +261,19 @@ form p {
   font-size: 15px;
   margin-top: 20px;
   padding: 0.3px; }
+
+main {
+  margin-top: 140px; }
+
+/*CARRITO*/
+.carrito {
+  background: url("../imagenes/imagen-6.jpg") no-repeat 1px 1px;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden; }
+
+.texto {
+  color: black; }
 
 /* FOOTER*/
 .footer {
