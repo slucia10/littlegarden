@@ -138,6 +138,7 @@ h4 {
     padding-top: 66px; }
   /*fin titulos*/
   .header__logo {
+    padding-top: 10%;
     margin-left: 120% !important; }
   .contenedorProductos {
     display: flex;
