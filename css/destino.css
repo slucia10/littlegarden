@@ -118,18 +118,29 @@ h4 {
   justify-content: end; }
 
 /* mobile */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 768px) {
+  /*titulos*/
   h1.titulo {
+    padding-top: 20px;
     font-size: 2.6rem; }
   @keyframes aparecer {
     0% {
       opacity: 0; }
     100% {
       opacity: 1; } }
-  .caja__parrafo {
-    font-size: 16px; }
+  .titulo-productos {
+    padding-top: 40px; }
+  .tituloCarrito {
+    padding-top: 40px; }
+  .tituloContacto {
+    padding-top: 40px; }
+  .tituloCuidados {
+    padding-top: 40px; }
+  /*fin titulos*/
+  .header__logo {
+    margin-left: 80% !important; }
   .contenedorCuidados {
-    padding-left: 10%; }
+    padding-left: 5%; }
   main {
     padding-top: 10px; }
   .iconos {
@@ -153,7 +164,7 @@ h4 {
     width: 100% !important; } }
 
 /* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 769px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
@@ -192,7 +203,7 @@ h4 {
     margin-right: 40px; } }
 
 /* Notebook */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 770px) and (max-width: 1024px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a;
