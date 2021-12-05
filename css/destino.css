@@ -122,7 +122,6 @@ h4 {
   /*titulos*/
   h1.titulo {
     padding-top: 40px;
-    padding-top: 20px;
     font-size: 2.6rem; }
   @keyframes aparecer {
     0% {
@@ -130,17 +129,22 @@ h4 {
     100% {
       opacity: 1; } }
   .titulo-productos {
-    padding-top: 40px; }
+    padding-top: 66px; }
   .tituloCarrito {
-    padding-top: 40px; }
+    padding-top: 66px; }
   .tituloContacto {
-    padding-top: 40px; }
+    padding-top: 66px; }
   .tituloCuidados {
-    padding-top: 40px; }
+    padding-top: 66px; }
   /*fin titulos*/
   .header__logo {
+    margin-left: 120% !important; }
+  .contenedorProductos {
     display: flex;
     justify-content: center; }
+  .contenedorCuidados {
+    flex-flow: nowrap;
+    padding-left: 0%; }
   main {
     padding-top: 10px; }
   .iconos {

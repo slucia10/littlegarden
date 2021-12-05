@@ -7,7 +7,6 @@
 
     h1.titulo {
         padding-top: 40px;
-        padding-top: 20px;
         font-size: 2.6rem;
     }
 
@@ -22,25 +21,32 @@
     }
 
 .titulo-productos {
-    padding-top: 40px;
+    padding-top: 66px;
 }
 .tituloCarrito {
-    padding-top: 40px;
+    padding-top: 66px;
 }
 .tituloContacto {
-    padding-top: 40px;
+    padding-top: 66px;
 }
 .tituloCuidados {
-    padding-top: 40px;
+    padding-top: 66px;
 }
 /*fin titulos*/
 
     .header__logo {
-      display: flex;
-      justify-content: center;
+      margin-left: 120% !important;
     }
 
-
+    .contenedorProductos {
+       display: flex;
+       justify-content: center;
+    }
+     .contenedorCuidados {
+       flex-flow: nowrap;
+       padding-left: 0%;
+     }
+    
     main {
         padding-top: 10px;
     }
