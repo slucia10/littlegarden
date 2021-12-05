@@ -6,18 +6,9 @@
  /*titulos*/
 
     h1.titulo {
-        padding-top: 40px;
+        padding-top: 60px;
         font-size: 2.6rem;
-    }
-
-    @keyframes aparecer {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
+        font-family: roboto condesed;
     }
 
 .titulo-productos {
@@ -35,7 +26,6 @@
 /*fin titulos*/
 
     .header__logo {
-        padding-top: 10%;
       margin-left: 120% !important;
     }
 
@@ -61,7 +51,7 @@
         background-color: #2a2e2a;
         text-align: center;
         padding-top: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
 
         &__p {
             color: white;
@@ -95,7 +85,7 @@
     }
 
     .header__logo {
-        margin-left: 150%;
+        margin-left: 250%;
     }
 
 
