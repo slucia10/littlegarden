@@ -289,7 +289,17 @@ main {
   .footer__icono {
     color: white; }
   .footer__p {
-    color: white; }
+    color: white;
+    padding-top: 10px; }
+
+a {
+  padding-left: 2px;
+  text-decoration: none; }
+
+/*ICONOS FOOTER*/
+.tarjetas {
+  display: flex;
+  justify-content: start; }
 
 .caja {
   padding-top: 1rem;
