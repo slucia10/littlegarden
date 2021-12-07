@@ -56,10 +56,15 @@ a {
    padding-left: 2px;
     text-decoration: none;
 }
- /*ICONOS FOOTER*/
- .tarjetas {
+ .mapa {
      display: flex;
-     justify-content: start;
+     justify-content:center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+
+    &__titulo {
+        justify-content: center;
+    }
  }
 
 
