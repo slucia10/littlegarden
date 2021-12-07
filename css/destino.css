@@ -132,6 +132,8 @@ h4 {
     padding-top: 66px; }
   .tituloCuidados {
     padding-top: 66px; }
+  h5 {
+    font-size: 14px; }
   /*fin titulos*/
   .header__logo {
     margin-left: 120% !important; }
@@ -141,6 +143,9 @@ h4 {
   .contenedorCuidados {
     flex-flow: nowrap;
     padding-left: 0%; }
+  .contenedorCuidados__img {
+    width: 220px;
+    height: 220px; }
   main {
     padding-top: 10px; }
   .iconos {

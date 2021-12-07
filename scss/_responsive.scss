@@ -23,6 +23,9 @@
 .tituloCuidados {
     padding-top: 66px;
 }
+h5 {
+    font-size: 14px;
+}
 /*fin titulos*/
 
     .header__logo {
@@ -36,6 +39,10 @@
      .contenedorCuidados {
        flex-flow: nowrap;
        padding-left: 0%;
+     }
+     .contenedorCuidados__img {
+         width: 220px;
+         height: 220px;
      }
     
     main {
