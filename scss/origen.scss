@@ -4,6 +4,7 @@
 @import "_responsive";
 @import "_productos";
 @import "_formularios";
+@import "_footer";
 
 //VARIABLES
 $verde:#748c74;
@@ -16,7 +17,6 @@ $alto:250px;
     width: $ancho;
     height: $alto;
 }
-
 
 main {
     margin-top: 140px;
@@ -35,58 +35,7 @@ main {
 }
 
 
-/* FOOTER*/
-.footer {
-    background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
-    background-color: #2a2e2a;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
 
-    &__icono {
-        color: white;
-    }
-
-    &__p {
-        color: white;
-        padding-top: 14px;
-    }
-}
-a {
-   padding-left: 5px;
-    text-decoration: none;
-}
-.redes {
-    text-align: start;
-    padding-left: inherit;
-    color: #ebe4d5;
-}
-
-.info {
-   text-align: start;
-   color: #ebe4d5;
-   padding-left: inherit;
-
-}
-ul li {
-    list-style-type: none;
-    display: flex;
-   
-}
-.imgInfo {
-    padding-left: 2px;
-}
- .mapa {
-     display: flex;
-     justify-content:center;
-     padding-top: 20px;
-     padding-bottom: 20px;
-
-    &__titulo {
-        justify-content: center;
-    }
- }
-/*fin footer*/ 
 .caja {
     padding-top: 1rem;
     padding-bottom: 1rem;

@@ -151,21 +151,25 @@ h4 {
   .iconos {
     margin-right: 30px; }
   .footer {
-    background-image: linear-gradient(500deg, #949794, #030303);
-    background-color: #2a2e2a;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px; }
-    .footer__p {
-      color: white; }
-  .redes {
-    text-align: center;
-    color: #ebe4d5; }
-  .info {
-    text-align: center;
-    color: #ebe4d5; }
-  .form {
-    width: 100% !important; } }
+    font-size: 14px; }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center; }
+  .footer .footer-center i {
+    margin-left: 0; } }
+
+.redes {
+  color: #ebe4d5; }
+
+.info {
+  color: #ebe4d5; }
+
+.form {
+  width: 100% !important; }
 
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -277,26 +281,12 @@ form p {
   margin-top: 20px;
   padding: 0.3px; }
 
-main {
-  margin-top: 140px; }
-
-/*CARRITO*/
-.carrito {
-  background: url("../imagenes/imagen-6.jpg") no-repeat 1px 1px;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden; }
-
-.texto {
-  color: black; }
-
 /* FOOTER*/
 .footer {
-  background-image: linear-gradient(500deg, #949794, #030303);
-  background-color: #2a2e2a;
+  background-color: #33383b;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .footer__icono {
     color: white; }
   .footer__p {
@@ -308,14 +298,14 @@ a {
   text-decoration: none; }
 
 .redes {
-  text-align: start;
-  padding-left: inherit;
   color: #ebe4d5; }
 
 .info {
   text-align: start;
   color: #ebe4d5;
   padding-left: inherit; }
+  .info__p {
+    padding-left: 5px; }
 
 ul li {
   list-style-type: none;
@@ -332,7 +322,41 @@ ul li {
   .mapa__titulo {
     justify-content: center; }
 
+.menu {
+  color: #ebe4d5; }
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top; }
+
+.footer .footer-left {
+  width: 30%;
+  padding-right: 15px;
+  padding-left: 30px; }
+
+.footer .footer-center {
+  width: 30%; }
+
+.footer .footer-right {
+  width: 30%;
+  padding-right: 30px; }
+
 /*fin footer*/
+main {
+  margin-top: 140px; }
+
+/*CARRITO*/
+.carrito {
+  background: url("../imagenes/imagen-6.jpg") no-repeat 1px 1px;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden; }
+
+.texto {
+  color: black; }
+
 .caja {
   padding-top: 1rem;
   padding-bottom: 1rem; }
