@@ -1,12 +1,13 @@
 /* FOOTER*/
 .footer {
     background-color: #33383b;
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 
     &__p {
         color: white;
-       
+        padding-top: 14px;
     }
 }
 a {
@@ -29,7 +30,7 @@ a {
 }
 ul li {
     list-style-type: none;
-    
+    display: flex;
    
 }
 .imgInfo {
@@ -53,7 +54,7 @@ ul li {
  .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
-  display: initial;
+  display: inline-block;
   vertical-align: top;
 }
 .footer .footer-left {
