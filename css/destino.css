@@ -290,105 +290,100 @@ main {
 .texto {
   color: black; }
 
-/*MAPA
-
-/* FOOTER*/
-.footer {
-  background-image: linear-gradient(500deg, #949794, #030303);
-  background-color: #2a2e2a;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .footer__icono {
-    color: white; }
-  .footer__p {
-    color: white;
-    padding-top: 14px; }
-
-a {
-  padding-left: 5px;
-  text-decoration: none; }
-
-.redes {
-  text-align: start;
-  color: #ebe4d5; }
-
-.info {
-  text-align: start;
-  color: #ebe4d5; }
-
-ul li {
-  list-style-type: none; }
-
+/*MAPA*/
 .mapa {
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  /* FOOTER*/
+  /*fin footer*/
+  /*WHATSAPP*/
+  /* Iconos centrales Index */
+  /*SECCION CUIDADOS*/ }
   .mapa__titulo {
     justify-content: center; }
-
-/*fin footer*/
-.caja {
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
-  .caja__parrafo {
-    font-size: 20px;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
-    padding: 8px;
-    font-family: roboto condesed, monospace; }
-
-/*WHATSAPP*/
-.btn-wsp {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 20px;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100; }
-
-.btn-wsp:hover {
-  text-decoration: none;
-  background: #29c729; }
-
-/* Iconos centrales Index */
-.iconos {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
-  text-align: center;
-  flex-direction: row;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  /* imagenes Deco */ }
-  .iconos__img {
-    padding-left: 2rem;
-    border: 2px violet; }
-    .iconos__img__p {
-      font-size: 18px; }
-  .iconos .contenedorImg {
+  .mapa .footer {
+    background-image: linear-gradient(500deg, #949794, #030303);
+    background-color: #2a2e2a;
+    text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px; }
-    .iconos .contenedorImg__imgIndex {
-      display: flex;
+    padding-bottom: 10px; }
+    .mapa .footer__icono {
+      color: white; }
+    .mapa .footer__p {
+      color: white;
+      padding-top: 14px; }
+  .mapa a {
+    padding-left: 5px;
+    text-decoration: none; }
+  .mapa .redes {
+    text-align: start;
+    color: #ebe4d5; }
+  .mapa .info {
+    text-align: start;
+    color: #ebe4d5; }
+  .mapa ul li {
+    list-style-type: none; }
+  .mapa .mapa {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .mapa .mapa__titulo {
       justify-content: center; }
-
-/*SECCION CUIDADOS*/
-.contenedorCuidados {
-  margin-top: 20px;
-  margin-left: 20px; }
-  .contenedorCuidados__img {
-    width: 250px;
-    height: 250px; }
-
-.card1 {
-  border: none; }
+  .mapa .caja {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    .mapa .caja__parrafo {
+      font-size: 20px;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+      padding: 8px;
+      font-family: roboto condesed, monospace; }
+  .mapa .btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 20px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100; }
+  .mapa .btn-wsp:hover {
+    text-decoration: none;
+    background: #29c729; }
+  .mapa .iconos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* imagenes Deco */ }
+    .mapa .iconos__img {
+      padding-left: 2rem;
+      border: 2px violet; }
+      .mapa .iconos__img__p {
+        font-size: 18px; }
+    .mapa .iconos .contenedorImg {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: 20px;
+      margin-right: 20px; }
+      .mapa .iconos .contenedorImg__imgIndex {
+        display: flex;
+        justify-content: center; }
+  .mapa .contenedorCuidados {
+    margin-top: 20px;
+    margin-left: 20px; }
+    .mapa .contenedorCuidados__img {
+      width: 250px;
+      height: 250px; }
+  .mapa .card1 {
+    border: none; }
