@@ -34,16 +34,6 @@ main {
     color: black;
 }
 
- /*MAPA*/
- .mapa {
-    display: flex;
-    justify-content:center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-   &__titulo {
-       justify-content: center;
-   }
 
 /* FOOTER*/
 .footer {
@@ -72,7 +62,7 @@ a {
     
 }
 .info {
-   text-align: start;
+   text-align: center;
    color: #ebe4d5;
 
 }
@@ -100,6 +90,8 @@ ul li {
         margin-right: 3.5rem;
         padding: 8px;
         font-family: roboto condesed, monospace;
+
+
     }
 }
 
@@ -173,5 +165,4 @@ ul li {
 
 .card1 {
     border: none;
-}
 }
