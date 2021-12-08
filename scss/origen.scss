@@ -34,6 +34,16 @@ main {
     color: black;
 }
 
+ /*MAPA*/
+ .mapa {
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+   &__titulo {
+       justify-content: center;
+   }
 
 /* FOOTER*/
 .footer {
@@ -41,7 +51,7 @@ main {
     background-color: #2a2e2a;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
     &__icono {
         color: white;
@@ -57,12 +67,17 @@ a {
     text-decoration: none;
 }
 .redes {
-    display:table-cell;
+    text-align: start;
+    color: #ebe4d5;
     
 }
 .info {
-    display: flex;
-    justify-content: start;
+   text-align: start;
+   color: #ebe4d5;
+
+}
+ul li {
+    list-style-type: none;
 }
  .mapa {
      display: flex;
@@ -74,8 +89,7 @@ a {
         justify-content: center;
     }
  }
-
-
+/*fin footer*/ 
 .caja {
     padding-top: 1rem;
     padding-bottom: 1rem;

@@ -158,6 +158,12 @@ h4 {
     padding-bottom: 30px; }
     .footer__p {
       color: white; }
+  .redes {
+    text-align: center;
+    color: #ebe4d5; }
+  .info {
+    text-align: center;
+    color: #ebe4d5; }
   .form {
     width: 100% !important; } }
 
@@ -284,13 +290,15 @@ main {
 .texto {
   color: black; }
 
+/*MAPA
+
 /* FOOTER*/
 .footer {
   background-image: linear-gradient(500deg, #949794, #030303);
   background-color: #2a2e2a;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
   .footer__icono {
     color: white; }
   .footer__p {
@@ -302,11 +310,15 @@ a {
   text-decoration: none; }
 
 .redes {
-  display: table-cell; }
+  text-align: start;
+  color: #ebe4d5; }
 
 .info {
-  display: flex;
-  justify-content: start; }
+  text-align: start;
+  color: #ebe4d5; }
+
+ul li {
+  list-style-type: none; }
 
 .mapa {
   display: flex;
@@ -316,6 +328,7 @@ a {
   .mapa__titulo {
     justify-content: center; }
 
+/*fin footer*/
 .caja {
   padding-top: 1rem;
   padding-bottom: 1rem; }
