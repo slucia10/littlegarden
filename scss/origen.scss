@@ -58,16 +58,23 @@ a {
 }
 .redes {
     text-align: start;
+    padding-left: inherit;
     color: #ebe4d5;
-    
 }
+
 .info {
-   text-align: center;
+   text-align: start;
    color: #ebe4d5;
+   padding-left: inherit;
 
 }
 ul li {
     list-style-type: none;
+    display: flex;
+   
+}
+.imgInfo {
+    padding-left: 2px;
 }
  .mapa {
      display: flex;
