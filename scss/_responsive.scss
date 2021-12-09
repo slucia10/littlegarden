@@ -69,10 +69,7 @@
     }
 
     .redes {
-        margin-bottom: 24px;
-        display: inherit;
-        width: inherit;
-        position: relative;
+        margin-top: 184px;
     }
 
     .menu {
@@ -81,7 +78,11 @@
 
     .info {
         display: inherit;
+        
+    }
 
+    h6.redes {
+        display: none;
     }
 
     .form {

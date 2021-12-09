@@ -155,14 +155,13 @@ h4 {
   .footer__p {
     display: none; }
   .redes {
-    margin-bottom: 24px;
-    display: inherit;
-    width: inherit;
-    position: relative; }
+    margin-top: 184px; }
   .menu {
     display: none; }
   .info {
     display: inherit; }
+  h6.redes {
+    display: none; }
   .form {
     width: 100% !important; } }
 
