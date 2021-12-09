@@ -99,17 +99,6 @@
     .footer {
         background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
         background-color: #2a2e2a;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 20px;
-
-        &__img {
-            padding: 1px;
-        }
-
-        &__p {
-            color: white;
-        }
     }
 
     .header__logo {
@@ -119,29 +108,24 @@
 
     /*titulos*/
     .titulo {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .titulo-productos {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .tituloCarrito {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .tituloContacto {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .tituloCuidados {
-        padding-top: 20%;
+        padding-top: 10%;
     }
-
-    .titulo {
-        padding-top: 20%;
-    }
-
     /*fin titulos*/
 
     .deco {
@@ -163,6 +147,36 @@
     .iconos {
         margin-right: 40px;
     }
+    
+    .footer {
+        font-size: 16px;
+    }
+
+    .footer__p {
+        display: none;
+    }
+
+    .redes {
+        margin-top: 184px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .info {
+        display: inherit;
+        margin-left: 120%;
+        
+    }
+
+    h6.redes {
+        display: none;
+    }
+.contenedorCuidados {
+        flex-flow: column;
+        
+    }
 }
 
 
@@ -170,24 +184,5 @@
 /* Notebook */
 @media (max-width:1024px) {
 
-    .footer {
-        background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
-        background-color: #2a2e2a;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 20px;
-
-        &__img {
-            padding: 1px;
-        }
-
-        &__h5 {
-            color: white;
-            font-size: 0.5rem;
-        }
-
-        &__p {
-            color: white;
-        }
-    }
+  
 }

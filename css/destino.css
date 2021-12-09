@@ -170,29 +170,20 @@ h4 {
 @media (min-width: 769px) and (max-width: 1024px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
-    background-color: #2a2e2a;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px; }
-    .footer__img {
-      padding: 1px; }
-    .footer__p {
-      color: white; }
+    background-color: #2a2e2a; }
   .header__logo {
     margin-left: 250%; }
   /*titulos*/
   .titulo {
-    padding-top: 20%; }
+    padding-top: 10%; }
   .titulo-productos {
-    padding-top: 20%; }
+    padding-top: 10%; }
   .tituloCarrito {
-    padding-top: 20%; }
+    padding-top: 10%; }
   .tituloContacto {
-    padding-top: 20%; }
+    padding-top: 10%; }
   .tituloCuidados {
-    padding-top: 20%; }
-  .titulo {
-    padding-top: 20%; }
+    padding-top: 10%; }
   /*fin titulos*/
   .deco {
     overflow: hidden; }
@@ -203,24 +194,24 @@ h4 {
   .form {
     width: 100% !important; }
   .iconos {
-    margin-right: 40px; } }
+    margin-right: 40px; }
+  .footer {
+    font-size: 16px; }
+  .footer__p {
+    display: none; }
+  .redes {
+    margin-top: 184px; }
+  .menu {
+    display: none; }
+  .info {
+    display: inherit;
+    margin-left: 120%; }
+  h6.redes {
+    display: none; }
+  .contenedorCuidados {
+    flex-flow: column; } }
 
 /* Notebook */
-@media (max-width: 1024px) {
-  .footer {
-    background-image: linear-gradient(500deg, #949794, #030303);
-    background-color: #2a2e2a;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px; }
-    .footer__img {
-      padding: 1px; }
-    .footer__h5 {
-      color: white;
-      font-size: 0.5rem; }
-    .footer__p {
-      color: white; } }
-
 /* imagenes PRODUCTOS */
 .contenedorProductos {
   padding-top: 20px;
