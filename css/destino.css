@@ -159,7 +159,8 @@ h4 {
   .menu {
     display: none; }
   .info {
-    display: inherit; }
+    display: inherit;
+    margin-left: 24%; }
   h6.redes {
     display: none; }
   .form {
