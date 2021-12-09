@@ -48,8 +48,19 @@ ul li {
  }
  .menu {
     color: #ebe4d5;
-
 }
+
+.footer .menu a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer .menu a:hover {
+    color: #60d182;
+  }
+  
 
  .footer .footer-left,
 .footer .footer-center,

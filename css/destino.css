@@ -152,17 +152,17 @@ h4 {
     margin-right: 30px; }
   .footer {
     font-size: 16px; }
-  .footer .footer-left,
-  .footer .footer-center,
-  .footer .footer-right {
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center; }
+  .footer__p {
+    display: none; }
   .redes {
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    display: inherit;
+    width: inherit;
+    position: relative; }
+  .menu {
+    display: none; }
   .info {
-    align-items: center; }
+    display: inherit; }
   .form {
     width: 100% !important; } }
 
@@ -317,6 +317,15 @@ ul li {
 
 .menu {
   color: #ebe4d5; }
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit; }
+
+.footer .menu a:hover {
+  color: #60d182; }
 
 .footer .footer-left,
 .footer .footer-center,

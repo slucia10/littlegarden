@@ -3,7 +3,7 @@
 /* mobile */
 
 @media (max-width: 768px) {
- /*titulos*/
+    /*titulos*/
 
     h1.titulo {
         padding-top: 60px;
@@ -11,40 +11,47 @@
         font-family: roboto condesed;
     }
 
-.titulo-productos {
-    padding-top: 66px;
-}
-.tituloCarrito {
-    padding-top: 66px;
-}
-.tituloContacto {
-    padding-top: 66px;
-}
-.tituloCuidados {
-    padding-top: 66px;
-}
-h5 {
-    font-size: 15px;
-}
-/*fin titulos*/
+    .titulo-productos {
+        padding-top: 66px;
+    }
+
+    .tituloCarrito {
+        padding-top: 66px;
+    }
+
+    .tituloContacto {
+        padding-top: 66px;
+    }
+
+    .tituloCuidados {
+        padding-top: 66px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    /*fin titulos*/
 
     .header__logo {
-      margin-left: 120% !important;
+        margin-left: 120% !important;
     }
 
     .contenedorProductos {
-       display: flex;
-       justify-content: center;
+        display: flex;
+        justify-content: center;
     }
-     .contenedorCuidados {
-       flex-flow: nowrap;
-       padding-left: 0%;
-     }
-     .contenedorCuidados__img {
-         width: 220px;
-         height: 220px;
-     }
-    
+
+    .contenedorCuidados {
+        flex-flow: nowrap;
+        padding-left: 0%;
+    }
+
+    .contenedorCuidados__img {
+        width: 220px;
+        height: 220px;
+    }
+
     main {
         padding-top: 10px;
     }
@@ -55,22 +62,27 @@ h5 {
 
     .footer {
         font-size: 16px;
-      }
+    }
 
-      .footer .footer-left,
-      .footer .footer-center,
-      .footer .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-      }
-      .redes {
-          margin-bottom: 24px;
-      }
-      .info {
-          align-items: center;
-      }
+    .footer__p {
+        display: none;
+    }
+
+    .redes {
+        margin-bottom: 24px;
+        display: inherit;
+        width: inherit;
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .info {
+        display: inherit;
+
+    }
 
     .form {
         width: 100% !important;
@@ -107,6 +119,7 @@ h5 {
     .titulo {
         padding-top: 20%;
     }
+
     .titulo-productos {
         padding-top: 20%;
     }
