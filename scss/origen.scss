@@ -1,4 +1,4 @@
-// IMPORTACIONES+
+// IMPORTACIONES
 @import "_titulos";
 @import "_header";
 @import "_responsive";
@@ -10,7 +10,7 @@
 $verde:#748c74;
 $rosa: rgb(231, 118, 118);
 $ancho:55px;
-$alto:5px;
+$alto:55px;
 
 //MIXIN 
 @mixin medidas ($ancho, $alto) {
@@ -32,10 +32,12 @@ main {
 
 .texto {
     color: black;
+    font-style: initial;
+    font-weight: bolder;
 }
 
 
-
+/*sobre nosotros*/
 .caja {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -88,20 +90,21 @@ main {
             font-size: 18px;
         }
     }
-   }
+}
 
- /* imagenes Deco */
-    .contenedorImg {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+/* imagenes Deco */
+.contenedorImg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 
-        &__imgIndex {
-            display: flex;
-            justify-content: center;
-        }
+    &__imgIndex {
+        display: flex;
+        justify-content: center;
     }
+}
+
 
 /*SECCION CUIDADOS*/
 .contenedorCuidados {

@@ -118,7 +118,7 @@ h4 {
   justify-content: end; }
 
 /* mobile */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   /*titulos*/
   h1.titulo {
     padding-top: 60px;
@@ -136,7 +136,7 @@ h4 {
     font-size: 15px; }
   /*fin titulos*/
   .header__logo {
-    margin-left: 120% !important; }
+    margin-left: auto; }
   .contenedorProductos {
     display: flex;
     justify-content: center; }
@@ -155,11 +155,13 @@ h4 {
   .footer__p {
     display: none; }
   .redes {
-    margin-top: 130px;
-    position: relative; }
+    display: inherit;
+    position: relative;
+    margin-top: 184px; }
   .menu {
     display: none; }
   .info {
+    display: inherit;
     position: relative;
     margin-left: 50%; }
   h6.redes {
@@ -170,7 +172,7 @@ h4 {
     width: 100% !important; } }
 
 /* Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a; }
@@ -202,12 +204,10 @@ h4 {
     font-size: 16px; }
   .footer__p {
     display: none; }
-  .redes {
-    margin-top: 184px;
-    position: relative; }
   .menu {
     display: none; }
   .info {
+    display: inherit;
     position: relative;
     margin-left: 120%; }
   h6.redes {
@@ -216,7 +216,7 @@ h4 {
     flex-flow: column; } }
 
 /* Notebook */
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .footer {
     background-image: linear-gradient(500deg, #949794, #030303);
     background-color: #2a2e2a; } }
@@ -356,8 +356,11 @@ main {
   overflow: hidden; }
 
 .texto {
-  color: black; }
+  color: black;
+  font-style: initial;
+  font-weight: bolder; }
 
+/*sobre nosotros*/
 .caja {
   padding-top: 1rem;
   padding-bottom: 1rem; }
@@ -372,7 +375,7 @@ main {
 .btn-wsp {
   position: fixed;
   width: 55px;
-  height: 5px;
+  height: 55px;
   line-height: 55px;
   bottom: 30px;
   right: 20px;

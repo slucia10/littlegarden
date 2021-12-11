@@ -2,9 +2,9 @@
 
 /* mobile */
 
-@media (max-width: 768px) {
-    /*titulos*/
+@media only screen and (max-width: 768px) {
 
+    /*titulos*/
     h1.titulo {
         padding-top: 60px;
         font-size: 2.6rem;
@@ -34,7 +34,7 @@
     /*fin titulos*/
 
     .header__logo {
-        margin-left: 120% !important;
+        margin-left: auto;
     }
 
     .contenedorProductos {
@@ -68,16 +68,18 @@
         display: none;
     }
 
-    .redes {
-        margin-top: 130px;
-        position: relative;
-    }
+.redes {
+    display: inherit;
+    position: relative;
+    margin-top: 184px;
+}
 
     .menu {
         display: none;
     }
 
     .info {
+        display: inherit;
         position: relative;
         margin-left: 50%;
     }
@@ -98,7 +100,7 @@
 }
 
 /* Tablet */
-@media (min-width: 769px) and (max-width:1024px) {
+@media only screen and (min-width: 769px) and (max-width:1024px) {
 
     .footer {
         background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
@@ -161,16 +163,12 @@
         display: none;
     }
 
-    .redes {
-        margin-top: 184px;
-        position: relative;
-    }
-
     .menu {
         display: none;
     }
 
     .info {
+        display: inherit;
         position: relative;
         margin-left: 120%;
 
@@ -186,7 +184,7 @@
 }
 
 /* Notebook */
-@media (max-width:1024px) {
+@media only screen and (max-width:1024px) {
     .footer {
         background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
         background-color: #2a2e2a;
