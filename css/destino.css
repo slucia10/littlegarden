@@ -155,14 +155,17 @@ h4 {
   .footer__p {
     display: none; }
   .redes {
-    margin-top: 184px; }
+    margin-top: 130px;
+    position: relative; }
   .menu {
     display: none; }
   .info {
-    display: inherit;
+    position: relative;
     margin-left: 50%; }
   h6.redes {
     display: none; }
+  h6.info {
+    position: relative; }
   .form {
     width: 100% !important; } }
 
@@ -200,11 +203,12 @@ h4 {
   .footer__p {
     display: none; }
   .redes {
-    margin-top: 184px; }
+    margin-top: 184px;
+    position: relative; }
   .menu {
     display: none; }
   .info {
-    display: inherit;
+    position: relative;
     margin-left: 120%; }
   h6.redes {
     display: none; }
@@ -212,6 +216,11 @@ h4 {
     flex-flow: column; } }
 
 /* Notebook */
+@media (max-width: 1024px) {
+  .footer {
+    background-image: linear-gradient(500deg, #949794, #030303);
+    background-color: #2a2e2a; } }
+
 /* imagenes PRODUCTOS */
 .contenedorProductos {
   padding-top: 20px;
@@ -363,7 +372,7 @@ main {
 .btn-wsp {
   position: fixed;
   width: 55px;
-  height: 55px;
+  height: 5px;
   line-height: 55px;
   bottom: 30px;
   right: 20px;
@@ -386,21 +395,22 @@ main {
   text-align: center;
   flex-direction: row;
   padding-top: 30px;
-  padding-bottom: 30px;
-  /* imagenes Deco */ }
+  padding-bottom: 30px; }
   .iconos__img {
     padding-left: 2rem;
     border: 2px violet; }
     .iconos__img__p {
       font-size: 18px; }
-  .iconos .contenedorImg {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px; }
-    .iconos .contenedorImg__imgIndex {
-      display: flex;
-      justify-content: center; }
+
+/* imagenes Deco */
+.contenedorImg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px; }
+  .contenedorImg__imgIndex {
+    display: flex;
+    justify-content: center; }
 
 /*SECCION CUIDADOS*/
 .contenedorCuidados {

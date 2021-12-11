@@ -9,8 +9,8 @@
 //VARIABLES
 $verde:#748c74;
 $rosa: rgb(231, 118, 118);
-$ancho:250px;
-$alto:250px;
+$ancho:55px;
+$alto:5px;
 
 //MIXIN 
 @mixin medidas ($ancho, $alto) {
@@ -46,16 +46,14 @@ main {
         margin-right: 3.5rem;
         padding: 8px;
         font-family: roboto condesed, monospace;
-
-
     }
 }
 
 /*WHATSAPP*/
 .btn-wsp {
     position: fixed;
-    width: 55px;
-    height: 55px;
+    width: $ancho;
+    height: $alto;
     line-height: 55px;
     bottom: 30px;
     right: 20px;
@@ -65,7 +63,6 @@ main {
     font-size: 30px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     z-index: 100;
-   
 }
 
 .btn-wsp:hover {
@@ -83,7 +80,6 @@ main {
     padding-top: 30px;
     padding-bottom: 30px;
 
-
     &__img {
         padding-left: 2rem;
         border: 2px violet;
@@ -92,6 +88,7 @@ main {
             font-size: 18px;
         }
     }
+   }
 
  /* imagenes Deco */
     .contenedorImg {
@@ -105,8 +102,6 @@ main {
             justify-content: center;
         }
     }
-
-}
 
 /*SECCION CUIDADOS*/
 .contenedorCuidados {
