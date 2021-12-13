@@ -1,8 +1,7 @@
 // responsive
 
 /* mobile */
-
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
 
     /*titulos*/
     h1.titulo {
@@ -33,6 +32,10 @@
 
     /*fin titulos*/
 
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+    }
     .header__logo {
         margin-left: auto;
     }
@@ -59,7 +62,7 @@
     .iconos {
         margin-right: 30px;
     }
-
+/*footer*/
     .footer {
         font-size: 16px;
     }
@@ -68,11 +71,11 @@
         display: none;
     }
 
-.redes {
-    display: inherit;
-    position: relative;
-    margin-top: 184px;
-}
+    .redes {
+        display: inherit;
+        position: relative;
+        margin-top: 184px;
+    }
 
     .menu {
         display: none;
@@ -91,26 +94,16 @@
     h6.info {
         position: relative;
     }
-
+    
+/*fin footer*/
     .form {
         width: 100% !important;
     }
-
 
 }
 
 /* Tablet */
 @media only screen and (min-width: 769px) and (max-width:1024px) {
-
-    .footer {
-        background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
-        background-color: #2a2e2a;
-    }
-
-    .header__logo {
-        margin-left: 250%;
-    }
-
 
     /*titulos*/
     .titulo {
@@ -135,6 +128,11 @@
 
     /*fin titulos*/
 
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+    }
+
     .deco {
         overflow: hidden;
     }
@@ -155,8 +153,11 @@
         margin-right: 40px;
     }
 
+    /*footer*/
+
     .footer {
-        font-size: 16px;
+        background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
+        background-color: #2a2e2a;
     }
 
     .footer__p {
@@ -167,26 +168,38 @@
         display: none;
     }
 
+    .redes {
+        display: inherit;
+        position: relative;
+        margin-top: 184px;
+    }
+
     .info {
         display: inherit;
         position: relative;
         margin-left: 120%;
-
     }
 
     h6.redes {
         display: none;
     }
 
+    /*fin footer*/
+
     .contenedorCuidados {
         flex-flow: column;
+    }
+
+    .contenedorProductos {
+        padding-right: 31%;
     }
 }
 
 /* Notebook */
-@media only screen and (max-width:1024px) {
-    .footer {
-        background-image: linear-gradient(500deg, rgb(148, 151, 148), rgb(3, 3, 3));
-        background-color: #2a2e2a;
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+
+    .contenedorProductos {
+        margin-left: 20px;
     }
 }
