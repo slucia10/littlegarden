@@ -2,7 +2,7 @@
 $verde:#748c74;
 $rosa: rgb(231, 118, 118);
 
-/*titulos secciones*/ 
+/*titulos secciones*/
 
 .titulo-productos {
     text-align: center;
@@ -14,6 +14,7 @@ $rosa: rgb(231, 118, 118);
     font-family: roboto condesed, monospace;
 
 }
+
 .tituloCarrito {
     text-align: center;
     margin-top: 20px;
@@ -23,6 +24,7 @@ $rosa: rgb(231, 118, 118);
     color: $verde;
     font-family: roboto condesed, monospace;
 }
+
 .tituloCuidados {
     text-align: center;
     margin-top: 20px;
@@ -32,6 +34,7 @@ $rosa: rgb(231, 118, 118);
     color: $verde;
     font-family: roboto condesed, monospace;
 }
+
 .tituloContacto {
     text-align: center;
     margin-top: 20px;
@@ -41,6 +44,7 @@ $rosa: rgb(231, 118, 118);
     color: $verde;
     font-family: roboto condesed, monospace;
 }
+
 .titulo {
     animation-duration: 3s;
     animation-name: aparecer;
@@ -62,6 +66,7 @@ $rosa: rgb(231, 118, 118);
         opacity: 1;
     }
 }
+
 /*fin titulos secciones*/
 
 h1 {

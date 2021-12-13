@@ -1,84 +1,92 @@
 /* FOOTER*/
 .footer {
-    background-color: #33383b;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  background-color: #33383b;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-    &__p {
-        color: white;
-        padding-top: 14px;
-    }
+  &__p {
+    color: white;
+    padding-top: 14px;
+  }
 }
+
 a {
-   padding-left: 5px;
-    text-decoration: none;
+  padding-left: 5px;
+  text-decoration: none;
 }
+
 .redes {
-    color: #ebe4d5;
-  
+  color: #ebe4d5;
+
 }
 
 .info {
-   text-align: start;
-   color: #ebe4d5;
-   padding-left: inherit;
-   &__p {
-       padding-left: 5px;
-   }
+  text-align: start;
+  color: #ebe4d5;
+  padding-left: inherit;
+
+  &__p {
+    padding-left: 5px;
+  }
 
 }
+
 ul li {
-    list-style-type: none;
-    display: flex;
-   
-}
-.imgInfo {
-    padding-left: 2px;
-}
- .mapa {
-     display: flex;
-     justify-content:center;
-     padding-top: 20px;
-     padding-bottom: 20px;
+  list-style-type: none;
+  display: flex;
 
-    &__titulo {
-        justify-content: center;
-    }
- }
- .menu {
-    color: #ebe4d5;
+}
+
+.imgInfo {
+  padding-left: 2px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__titulo {
+    justify-content: center;
+  }
+}
+
+.menu {
+  color: #ebe4d5;
 }
 
 .footer .menu a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .footer .menu a:hover {
-    color: #60d182;
-  }
-  
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
 
- .footer .footer-left,
+.footer .menu a:hover {
+  color: #60d182;
+}
+
+
+.footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
   display: inline-block;
   vertical-align: top;
 }
-.footer .footer-left {
-    width: 30%;
-    padding-right: 15px;
-    padding-left: 30px;
-  }
 
-  .footer .footer-center {
-    width: 30%;
-  }
-  .footer .footer-right {
-    width: 30%;
-    padding-right: 30px;
-  }
-  
+.footer .footer-left {
+  width: 30%;
+  padding-right: 15px;
+  padding-left: 30px;
+}
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-right {
+  width: 30%;
+  padding-right: 30px;
+}
