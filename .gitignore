@@ -1,8 +1,7 @@
 #Dentro de Gitignore esta mi lista de objetos a ignorar
 
-#ignorar en subcarpetas
-imagenes/peperomia-randrop.jpg
-imagenes/dos-min.jpg
+#ignorar carpeta
+imagenes
 
 #ignorar archivo
 readme.md
