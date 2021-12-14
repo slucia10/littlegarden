@@ -230,7 +230,9 @@ h4 {
 /* Notebook */
 @media only screen and (min-width: 1025px) and (max-width: 1400px) {
   .contenedorProductos {
-    padding-right: 32%; } }
+    padding-right: 32%; }
+  .contenedorCuidados {
+    margin-right: 5%; } }
 
 /* PRODUCTOS */
 .contenedorProductos {
